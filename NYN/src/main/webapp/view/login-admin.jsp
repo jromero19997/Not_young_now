@@ -12,18 +12,20 @@
         <title>Login Admin</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
-    
+
     <style>
         body {
             background-image: url(/style/img/login-administrador.jpg);
             background-repeat: no-repeat;
             background-size: 100%;
         }
+        
         .container {
             margin-top: 6rem; /* Espacio superior del contenedor */
             position: relative; /* Necesario para el posicionamiento absoluto del logo */
             width: 1000px; /* Ancho del contenedor */
         }
+        
         .card {
             background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con transparencia para el formulario */
             color: black; /* Texto negro para contraste */
@@ -39,20 +41,24 @@
             color: #fff;
             width: 200px;
         }
+        
         .logo img {
             width: 200px; /* Tamaño del logo dentro del fondo */
             height: 300px; /* Tamaño del logo dentro del fondo */
         }
+        
         .card-body {
             padding: 0px 20px;
             color: white; /* Texto blanco para contraste */
         }
+        
         .text-container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center; /* Centrado vertical y horizontal */
         }
+        
         .text-container h1 {
             margin-bottom: 20px;
             color: white; /* Texto blanco para contraste */
