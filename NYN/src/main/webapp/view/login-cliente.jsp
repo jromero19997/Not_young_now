@@ -12,23 +12,26 @@
         <title>Login Cliente</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
-    
+
     <style>
         body {
             background-image: url(/style/img/login-cliente.jpg);
             background-repeat: no-repeat;
             background-size: 100%;
         }
+        
         .container {
             margin-top: 8rem; /* Espacio superior del contenedor */
             position: relative; /* Necesario para el posicionamiento absoluto del logo */
         }
+        
         .card {
             background-color: rgba(255, 255, 255, 0.6); /* Fondo blanco con opacidad 0.7 */
             color: black; /* Texto negro para contraste */
             position: relative;
             border-radius: 10px; /* Redondear bordes opcional */
         }
+        
         .logo {
             position: absolute;
             top: -50px; /* Posicionar fuera del card */
@@ -43,10 +46,12 @@
             justify-content: center;
             z-index: 2; /* Asegurar que el logo esté al frente */
         }
+        
         .logo img {
             width: 60px; /* Tamaño del logo dentro del fondo */
             height: 80px; /* Tamaño del logo dentro del fondo */
         }
+        
         .card-body {
             position: relative; /* Asegurarse de que el contenido del card no se sobreponga */
             z-index: 1; /* Asegurarse de que el contenido esté debajo del fondo azul del logo */
