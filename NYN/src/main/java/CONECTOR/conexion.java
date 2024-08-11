@@ -6,6 +6,7 @@ package CONECTOR;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 
 /**
  *
@@ -16,7 +17,7 @@ public class conexion {
         Connection conecta = null;
         try {
             // EJECJUTA CORRECTO
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             String servidorbd = "jdbc:mysql://localhost/not_young_now";
             String user = "root";
             String pass = "1234";
@@ -28,5 +29,9 @@ public class conexion {
             System.out.println("error: "+e);
         } 
         return conecta;
+    }
+
+    public ResultSet ejecutarConsulta(String sql) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
