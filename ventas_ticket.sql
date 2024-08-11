@@ -36,6 +36,10 @@ INSERT INTO cuenta (id_cliente, email, contrasena, estado_cuenta) VALUES
 (4, 'camila.palomino@gmail.com', 'password012', false),
 (5, 'ader.diestra@gmail.com', 'password345', false);
 
+SELECT count(id_cuenta) FROM cuenta 
+WHERE email = "cesar.carhuaz@gmail.com"  AND contrasena = "password123";
+
+
 create table administrador(
 	id_admin int primary key auto_increment,
     id_cuenta int not null,
