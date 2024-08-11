@@ -6,8 +6,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="CONECTOR.conexion" %>
-<%@page import="MODELL.M_comentarios" %>
-<%@page import="DAO.DAO_comentario" %>
 <%@page import="java.util.List" %>
 <%@page import="java.util.Iterator" %>
 <%@page import="java.util.ArrayList"%>
