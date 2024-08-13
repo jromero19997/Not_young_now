@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 11 ago. 2024, 15:22:35
+    Author     : CESAR
+*/
+
+body {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* CABEZADO */
+.navbar {
+    background-color: #7573F5;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 10px
+}
+
+/* CUERPO */
+
+.info-escenario {
+    text-align: center;
+}
+
+thead {
+    text-align: center;
+}
+
+.tabla-escenario input {
+    width: 70px;
+}
+
+.total-pagar {
+    display: flex;
+    align-items: center;
+}
+
+.total-pagar p {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.tabla-escenario .btn {
+    width: 130px;
+}
+
+td, th {
+    vertical-align: middle;
+}
+
+.btn-accion {
+    width: 230px;
+}
+
+.continuar {
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.derecha {
+    border-left: 5px solid black;
+}
+
+.table{
+    width: 80%
+}
+
+@media (max-width: 600px) {
+    .btn-accion {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: auto;
+    }
+
+}
+
+
+
+
+
+
+
