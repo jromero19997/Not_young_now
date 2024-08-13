@@ -1,0 +1,159 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13 ago. 2024, 00:29:19
+    Author     : CESAR
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEZADO */
+.navbar {
+    background-color: #7573F5;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 10px
+}
+
+
+
+/* CUERPOOOOOOOOOOOOOOOOOOOOOO*/
+
+/* IZQUIERDAAAAAAAAAA */
+
+.izquierda{
+    padding: 10px;
+}
+
+.titulo-general{
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.medio-pago{
+    padding: 20px;
+}
+
+/* Ajustar el tamaño y centrar el ícono verticalmente */
+.titulo {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    margin: 20px;
+    cursor: pointer; /* Cambia el cursor para indicar que es clicable */
+
+}
+
+.titulo img {
+    width: 100px;
+    height: 80px;
+}
+
+.titulo h3 {
+    align-content: center;
+    padding: 10px;
+}
+
+.titulo .bi {
+    font-size: 2rem; /* Ajusta el tamaño del icono */
+    margin-left: auto; /* Empuja el icono al final, a la derecha */
+    margin-right: 10px; /* Añade un pequeño margen a la derecha */
+}
+
+.contenido{
+    border-top: 2px solid gray;
+}
+
+.contenido p{
+   margin: 20px;
+   font-family: sans-serif;
+}
+
+.contenido ol{
+    margin: 25px;
+}
+
+.pagar{
+    color: #fff;
+    background-color: red;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    font-family: monospace;
+}
+
+.no-disponible{
+    color: #fff;
+    background-color: red;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    font-family: monospace;
+}
+
+.pagar, .no-disponible {
+    display: block;
+    margin: 20px auto; /* Centra horizontalmente el botón */
+    width: fit-content; /* Ajusta el ancho del botón al contenido */
+    text-align: center;
+}
+
+.img-billetera{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    margin: 25px;
+}
+
+.tarjeta, .billeteras-electronicas, .pago-efectivo{
+    border: 3px solid black;
+}
+
+.collapsing + .bi,
+.collapse.show + .bi {
+    transform: rotate(180deg);
+}
+
+/* DERECHAAAAAAAAAAAA */
+
+.derecha {
+    padding: 10px;
+    border-left: 5px solid black;
+}
+
+/* PIEEEEEEEEEEEEEEEEEEEEEEE */
+
+footer p{
+    text-align: center;
+    display: flex; /* Activa Flexbox para el footer */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 80px; /* Define la altura del footer */
+    background-color: #343a40; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
