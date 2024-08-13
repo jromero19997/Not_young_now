@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 12 ago. 2024, 21:12:57
+    Author     : CESAR
+*/
+
+body {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* CABEZADO */
+.navbar {
+    background-color: #7573F5;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 10px
+}
+
+.continuar {
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+/* CUERPOOOOOOOOOOOOOOOOOOOOOO*/
+
+/* IZQUIERDAAAAAAAAAA */
+
+.titulo-producto{
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.seguro-ticket, .seguro-servicio-adicional{
+    background-color: gray;
+    padding: 15px;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.contenido-seguro{
+    text-align: center;
+}
+
+.contenido-seguro h4{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+/* DERECHAAAAAAAAAAAA */
+
+.derecha {
+    padding: 10px;
+    border-left: 5px solid black;
+}
