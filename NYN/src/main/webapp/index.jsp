@@ -1,7 +1,7 @@
 <%-- 
-    Document   : menu_principal_dos
-    Created on : 13 ago. 2024, 18:37:13
-    Author     : CESAR
+    Document   : menuprincipal
+    Created on : 5 ago 2024, 18:33:11
+    Author     : camila
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,13 +13,13 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
               rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
               crossorigin="anonymous">
-        <link href="../style/css/menu_principal_dos.css" rel="stylesheet" type="text/css"/>
+        <link href="style/css/menu principal/index.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../style/img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                    <img src="style/img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
                     <span class="brand-name">NOT YOUNG NOW</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,10 @@
                             <a class="nav-link" href="#">Servicio Adicional</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cerrar Sesión</a>
+                            <a class="nav-link" href="#">Registrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ingresar</a>
                         </li>
                     </ul>
                 </div>
@@ -44,13 +47,13 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../style/img/imagen2.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
+                    <img src="style/img/imagen2.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
                 </div> 
                 <div class="carousel-item">
-                    <img src="../style/img/juane.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
+                    <img src="style/img/juane.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
                 </div>
                 <div class="carousel-item">
-                    <img src="../style/img/aventuraa.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
+                    <img src="style/img/aventuraa.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -67,7 +70,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="../style/img/aventura.png" class="card-img-top" alt=""/>
+                        <img src="style/img/aventura.png" class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">ESTADIO NACIONAL LIMA/MUSICA</h5>
                             <H5 class="card-text">AVENTURA EN LIMA</H5>
@@ -78,7 +81,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="../style/img/morat.png" class="card-img-top" alt=""/>
+                        <img src="style/img/morat.png" class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">ESTADIO NACIONAL LIMA/MUSICA</h5>
                             <H5 class="card-text">MORAT LOS ESTADIOS.ANTES DE  </H5>
@@ -95,10 +98,10 @@
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <h5>Redes Sociales</h5>
-                        <img src="../style/img/redes sociales/facebook.png" class="social-icon mx-2" alt=""/>
-                        <img src="../style/img/redes sociales/instagram.png" class="social-icon mx-2" alt=""/>
-                        <img src="../style/img/redes sociales/tiktok.png" class="social-icon mx-2" alt=""/>
-                        <img src="../style/img/redes sociales/youtube.png" class="social-icon mx-2" alt=""/>
+                        <img src="style/img/redes sociales/facebook.png" class="social-icon mx-2" alt=""/>
+                        <img src="style/img/redes sociales/instagram.png" class="social-icon mx-2" alt=""/>
+                        <img src="style/img/redes sociales/tiktok.png" class="social-icon mx-2" alt=""/>
+                        <img src="style/img/redes sociales/youtube.png" class="social-icon mx-2" alt=""/>
                     </div>
                     <div class="col-md-4 text-center">
                         <h5>Solicitudes</h5>
@@ -123,3 +126,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </body>
 </html>
+
+

@@ -10,7 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="../style/css/venta_ticket.css" rel="stylesheet" type="text/css"/>
+    <link href="../../style/css/proceso comprar ticket/venta_ticket.css" rel="stylesheet" type="text/css"/>
     <title>Selección de Tickets</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
         <nav class="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../style/img/logo.png" alt="Logo" width="50" height="60" class="d-inline-block align-text-top">
+                    <img src="../../style/img/logo.png" alt="Logo" width="50" height="60" class="d-inline-block align-text-top">
                     <h1>NOT YOUNG NOW</h1>
                 </a>
             </div>
@@ -30,7 +30,7 @@
             <div class="col-lg-8 col-12 mb-3">
                 <div class="info-escenario">
                     <h2>MAPA DEL ESCENARIO:</h2>
-                    <img src="../style/img/escenario.png" alt="escenario" class="img-fluid"/>
+                    <img src="../../style/img/escenario/escenario-aventura.png" alt="escenario" class="img-fluid"/>
                 </div>
 
                 <div class="tabla-escenario table-responsive">
@@ -82,7 +82,7 @@
             </div>
             
             <div class="col-lg-4 d-none d-lg-block text-center derecha">
-                <img src="../style/img/aventura.png" alt="aventura" class="img-fluid"/>
+                <img src="../../style/img/aventura.png" alt="aventura" class="img-fluid"/>
                 <h2>AVENTURA 2024</h2>
                 <p>Viernes 20 de octubre del 2024 / 18:00hrs</p>
                 <button class="btn btn-danger continuar">CONTINUAR</button>

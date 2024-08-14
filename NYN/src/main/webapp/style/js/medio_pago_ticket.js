@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/JavaScript.js to edit this template
  */
 
+/* global Swal */
+
 document.addEventListener('DOMContentLoaded', function() {
     // Handle the 'Pagar' button for credit/debit card
     document.querySelector('.tarjeta .pagar').addEventListener('click', function() {
@@ -47,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             html: `
                 <p>Escanea el código QR de tu marca favorita desde tu app y confirma el pago.</p>
                 <div>
-                    <img src="../style/img/codigo QR.png" alt="codigo QR" class="img-fluid" style="max-width: 100px; margin: 10px;">
+                    <img src="../../style/img/img-billetera/codigo QR.png" alt="codigo QR" class="img-fluid" style="max-width: 100px; margin: 10px;">
                 </div>
                 <p>Total a pagar: $XXX.XX</p>
             `,

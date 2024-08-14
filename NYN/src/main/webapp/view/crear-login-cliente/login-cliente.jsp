@@ -13,78 +13,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login Cliente</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <style>
-            body {
-                background-image: url(/style/img/login-cliente.jpg);
-                background-repeat: no-repeat;
-                background-size: 100%;
-            }
-
-            .container {
-                margin-top: 8rem;
-                position: relative;
-                width: 700px;
-            }
-
-            .card {
-                background-color: rgba(255, 255, 255, 0.6);
-                color: black;
-                position: relative;
-                border-radius: 10px;
-            }
-
-            .logo {
-                position: absolute;
-                top: -50px;
-                left: 50%;
-                transform: translateX(-50%);
-                background-color: #7573F5;
-                border-radius: 50%;
-                width: 85px;
-                height: 95px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                z-index: 2;
-            }
-
-            .logo img {
-                width: 60px;
-                height: 80px;
-            }
-
-            .card-body {
-                position: relative;
-                z-index: 1;
-                padding: 0px 20px 20px 20px;
-            }
-
-            label {
-                font-size: 20px;
-            }
-
-            .form-group input {
-                color: black;
-            }
-
-            .form-footer {
-                display: flex;
-                justify-content: center;
-                margin-top: 10px;
-            }
-
-            .form-footer a {
-                color: black;
-                text-decoration: none;
-                font-size: 20px;
-            }
-
-            .form-footer a:hover {
-                text-decoration: underline;
-            }
-        </style>
+        <link href="../../style/css/crear-login-cliente/login-cliente.css" rel="stylesheet" type="text/css"/>
     </head>
-    
     <body>
         <div class="container">
             <div class="logo">
@@ -131,18 +61,13 @@
                         </div>
                     </div>
                 </div>
-                    <script>
-                        window.onload = function() {
-                            document.getElementById('email').value = '';
-                            document.getElementById('password').value = '';
-                        }
-                    </script>
             </div>
         </div>
-
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../../style/js/login-cliente.js" type="text/javascript"></script>
     </body>
 </html>
+
 
 

@@ -1,0 +1,63 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 ago. 2024, 02:04:04
+    Author     : CESAR
+*/
+
+/* Estilos para el header y footer */
+header, footer {
+    background-color: #7573F5;
+}
+
+/* Alineación del logo en el navbar */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para los items del menú */
+.nav-item {
+    background-color: #fff;
+    border: 3px solid black;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: inherit; /* Mantener el color heredado */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-link:hover {
+    color: #7573F5; /* Color al pasar el mouse */
+    text-decoration: none; /* Sin subrayado al hover */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de búsqueda */
+.col-auto {
+    display: flex;
+}
+
+.col-auto input {
+    margin-right: 10px;
+}
+
+/* Estilos para el footer */
+footer h1 {
+    flex-grow: 1;
+    margin: 0;
+    text-align: center;
+}

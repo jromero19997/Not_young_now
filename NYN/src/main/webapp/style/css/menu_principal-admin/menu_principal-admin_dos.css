@@ -1,0 +1,61 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 ago. 2024, 02:04:22
+    Author     : CESAR
+*/
+
+/* Estilos para el header y footer */
+header, footer {
+    background-color: #7573F5;
+}
+
+/* Alineación del logo en el navbar */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CABEZADO Y PIEEEEEEEEEEEEEEE */
+.nav-item {
+    background-color: #fff;
+    border: 3px solid black;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: inherit; /* Mantener el color heredado */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-link:hover {
+    color: #7573F5; /* Color al pasar el mouse */
+    text-decoration: none; /* Sin subrayado al hover */
+}
+
+/* CUERPOOOOOOOOOOOOOOOOOOOOOOO */
+main {
+    padding: 20px 50px;
+}
+
+.nombre {
+    font-family: monospace;
+}
+
+.informacion-reporte {
+    margin-top: 10px;
+}
+
+.informacion-reporte h2 {
+    font-family: cursive;
+}
+
+.informacion-reporte p {
+    font-family: serif;
+    font-size: 20px;
+}
+

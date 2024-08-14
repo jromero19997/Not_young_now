@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="../style/css/medio_pago_ticket.css" rel="stylesheet" type="text/css"/>
+    <link href="../../style/css/proceso comprar ticket/medio_pago_ticket.css" rel="stylesheet" type="text/css"/>
     <title>Selección de medio de pago</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
         <nav class="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../style/img/logo.png" alt="Logo" width="50" height="60" class="d-inline-block align-text-top">
+                    <img src="../../style/img/logo.png" alt="Logo" width="50" height="60" class="d-inline-block align-text-top">
                     <h1>NOT YOUNG NOW</h1>
                 </a>
             </div>
@@ -34,7 +34,7 @@
                     <!-- Tarjeta -->
                     <div class="tarjeta">
                         <div class="titulo" data-bs-toggle="collapse" data-bs-target="#collapseTarjeta" aria-expanded="false" aria-controls="collapseTarjeta">
-                            <img src="../style/img/visa-mastercard.png" alt=""/>
+                            <img src="../../style/img/medio pago/visa-mastercard.png" alt=""/>
                             <h3>Tarjeta de credito / debito</h3>
                             <i class="bi bi-chevron-down ms-auto"></i>
                         </div>
@@ -52,7 +52,7 @@
                     <!-- Billeteras Electronicas -->
                     <div class="billeteras-electronicas">
                         <div class="titulo" data-bs-toggle="collapse" data-bs-target="#collapseBilleteras" aria-expanded="false" aria-controls="collapseBilleteras">
-                            <img src="../style/img/billeteras.png" alt=""/>
+                            <img src="../../style/img/medio pago/billeteras.png" alt=""/>
                             <h3>Billeteras Electronicas</h3>
                             <i class="bi bi-chevron-down ms-auto"></i>
                         </div>
@@ -66,12 +66,12 @@
                                     <li>Tienes 15 minutos para realizar el pago</li>
                                 </ol>
                                 <div class="img-billetera">
-                                    <img src="../style/img/img-billetera/Agora.png" alt=""/>
-                                    <img src="../style/img/img-billetera/BBVA Wallet.png" alt=""/>
-                                    <img src="../style/img/img-billetera/Scotiabank.png" alt=""/>
-                                    <img src="../style/img/img-billetera/Yape.png" alt=""/>
-                                    <img src="../style/img/img-billetera/plin-logo.png" alt=""/>
-                                    <img src="../style/img/img-billetera/tunki.png" alt=""/>
+                                    <img src="../../style/img/img-billetera/Agora.png" alt=""/>
+                                    <img src="../../style/img/img-billetera/BBVA Wallet.png" alt=""/>
+                                    <img src="../../style/img/img-billetera/Scotiabank.png" alt=""/>
+                                    <img src="../../style/img/img-billetera/Yape.png" alt=""/>
+                                    <img src="../../style/img/img-billetera/plin-logo.png" alt=""/>
+                                    <img src="../../style/img/img-billetera/tunki.png" alt=""/>
                                 </div>
                             </div>
                             <button class="pagar">Pagar</button>
@@ -81,7 +81,7 @@
                     <!-- Pago Efectivo -->
                     <div class="pago-efectivo">
                         <div class="titulo" data-bs-toggle="collapse" data-bs-target="#collapsePagoEfectivo" aria-expanded="false" aria-controls="collapsePagoEfectivo">
-                            <img src="../style/img/pago-efectivo.png" alt=""/>
+                            <img src="../../style/img/medio pago/pago-efectivo.png" alt=""/>
                             <h3>Pago Efectivo</h3>
                             <i class="bi bi-chevron-down ms-auto"></i>
                         </div>
@@ -115,20 +115,19 @@
             </div>
             
             <div class="col-lg-4 d-none d-lg-block text-center derecha">
-                <img src="../style/img/aventura.png" alt="aventura" class="img-fluid"/>
+                <img src="../../style/img/aventura.png" alt="aventura" class="img-fluid"/>
                 <h2>AVENTURA 2024</h2>
                 <p>Viernes 20 de octubre del 2024 / 18:00hrs</p>
             </div>
         </div>
     </main>
-    
     <footer class="bg-dark text-white">
         <p>@copyright; 2024 NOT YOUNG NOW. Todos los derechos reservados.</p>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../style/js/medio_pago_ticket.js" type="text/javascript"></script>
+    <script src="../../style/js/medio_pago_ticket.js" type="text/javascript"></script>
 </body>
 </html>
 

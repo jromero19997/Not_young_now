@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 ago. 2024, 00:09:26
+    Author     : CESAR
+*/
+
+body {
+    background-color: #3c3c3c;
+    padding: 20px;
+}
+
+/* CUERPOOOOOOOOOOOOOOOOOOOOOOOO */
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    padding: 20px;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.contenido {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenido button {
+    margin: 10px auto;
+}
+
+/* COMENTARIOS REALIZADOSSSSSS */
+
+.comentarios {
+    width: 700px;
+    margin: 10px auto;
+    font-family: sans-serif;
+}
+
+.valoracion {
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+.estrella {
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.estrella:hover {
+    color: yellow;
+}
+
+
+
+

@@ -1,0 +1,74 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 ago. 2024, 00:33:23
+    Author     : CESAR
+*/
+
+body {
+    background-image: url(/style/img/crear-cuenta-admin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CUERPOOOOOOOOOOOOOOOOOOOOOOO */
+
+.container {
+    margin: 3rem;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* FORMULARIOOOOOOOOOOOOO */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 10px;
+    margin-right: -230px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+h1 {
+    border-bottom: 5px solid black;
+    margin: 10px 20px;
+}
+
+label {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+/* BOTON DE CREAR CUENTA */
+
+.btn {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/* BOTON DE IR A INICIAR SESION */
+
+.form-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.form-footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}

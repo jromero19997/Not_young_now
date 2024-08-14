@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 ago. 2024, 00:40:33
+    Author     : CESAR
+*/
+
+body {
+    background-image: url(/style/img/login-administrador.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CUERPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+/* IZQUIERDAAAAAAAAAAAAAAAAAAAAA */
+
+.container {
+    margin-top: 6rem;
+    width: 1000px;
+}
+
+/* FORMULARIOOOOOOOOOOOOOOO */
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.form-group input {
+    color: black;
+}
+
+/* IR EN CREAR CUENTAAAAAAAAAAAAAAA */
+
+.form-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.form-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+/* DERECHAAAAAAAAAAAAAAAAA */
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.logo img {
+    width: 200px;
+    height: 300px;
+}
