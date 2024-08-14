@@ -47,9 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
             html: `
                 <p>Escanea el código QR de tu marca favorita desde tu app y confirma el pago.</p>
                 <div>
-                    <img src="../style/img/img-billetera/Yape.png" alt="Yape" class="img-fluid" style="max-width: 100px; margin: 10px;">
-                    <img src="../style/img/img-billetera/plin-logo.png" alt="Plin" class="img-fluid" style="max-width: 100px; margin: 10px;">
-                    <!-- Add more images as necessary -->
+                    <img src="../style/img/codigo QR.png" alt="codigo QR" class="img-fluid" style="max-width: 100px; margin: 10px;">
                 </div>
                 <p>Total a pagar: $XXX.XX</p>
             `,
