@@ -36,7 +36,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
                                 <div class="form-footer">
-                                    <a href="/view/crear_cuenta-cliente.jsp">Crear cuenta</a>
+                                    <a href="crear_cuenta-cliente.jsp">Crear cuenta</a>
                                 </div>
                             </form>
                             <%

@@ -14,6 +14,7 @@ body {
 }
 
 /* CABEZADO */
+
 .navbar {
     background-color: #7573F5;
 }
@@ -46,6 +47,8 @@ body {
     padding: 10px;
 }
 
+/* SEGUROSSSSSSSSSSSSSSSSS */
+
 .seguro-ticket, .seguro-servicio-adicional{
     background-color: gray;
     padding: 15px;
@@ -65,7 +68,6 @@ body {
     padding: 10px;
     margin: 10px auto;
 }
-
 
 /* DERECHAAAAAAAAAAAA */
 

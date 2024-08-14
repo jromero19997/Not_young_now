@@ -19,7 +19,7 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                    <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
                     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -39,7 +39,7 @@
                             </li>
                         </ul>
                     </div>
-                    <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                    <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
                 </div>
             </nav>
         </header>
@@ -98,9 +98,9 @@
         
         <footer class="navbar navbar-expand-lg">
             <div class="container-fluid text-center">
-                <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
                 <h1>NOT YOUNG NOW</h1>
-                <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
             </div>
         </footer>
 

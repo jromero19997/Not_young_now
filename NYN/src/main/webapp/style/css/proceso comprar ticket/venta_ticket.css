@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-/* CABEZADO */
+/* CABEZADOOOOOOOOOOOOOOOOOOO */
 .navbar {
     background-color: #7573F5;
 }
@@ -29,19 +29,35 @@ body {
     padding-left: 10px
 }
 
-/* CUERPO */
+/* CUERPOOOOOOOOOOOOOOOOOO */
 
 .info-escenario {
     text-align: center;
 }
 
+/* TABLASSSSSSSSSSSSS */
+
 thead {
     text-align: center;
+}
+
+.table{
+    width: 80%
 }
 
 .tabla-escenario input {
     width: 70px;
 }
+
+.tabla-escenario .btn {
+    width: 130px;
+}
+
+td, th {
+    vertical-align: middle;
+}
+
+/* CONTENIDO DE TOTAL A PAGAR */
 
 .total-pagar {
     display: flex;
@@ -56,16 +72,16 @@ thead {
     align-content: center;
 }
 
-.tabla-escenario .btn {
-    width: 130px;
-}
-
-td, th {
-    vertical-align: middle;
-}
+/* ACTUALIZARRRRRR Y AGREGARRRRRRRR */
 
 .btn-accion {
     width: 230px;
+}
+
+/* DERECHAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+.derecha {
+    border-left: 5px solid black;
 }
 
 .continuar {
@@ -73,13 +89,7 @@ td, th {
     font-family: fantasy;
 }
 
-.derecha {
-    border-left: 5px solid black;
-}
-
-.table{
-    width: 80%
-}
+/* PANTALLA PEQUEÑAAAAAAAAA */
 
 @media (max-width: 600px) {
     .btn-accion {

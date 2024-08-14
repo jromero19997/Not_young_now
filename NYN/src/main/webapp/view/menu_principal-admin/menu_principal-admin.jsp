@@ -18,7 +18,7 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                    <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
                     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -38,7 +38,7 @@
                             </li>
                         </ul>
                     </div>
-                    <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                    <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
                 </div>
             </nav>
         </header>
@@ -48,16 +48,16 @@
             <form class="row g-3">
                 <div class="col-auto d-flex">
                     <input type="text" class="form-control" id="ingresa-correo" placeholder="Ingresa correo electronico">
-                    <button type="submit" class="btn btn-primary mb-3 ml-2" href="/view/menu_principal-admin_dos.jsp">Buscar</button>
+                    <button type="submit" class="btn btn-primary mb-3 ml-2" href="menu_principal-admin_dos.jsp">Buscar</button>
                 </div>
             </form>
         </main>
 
         <footer class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid justify-content-between text-center">
-                <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
                 <h1>---> Not Young Now <---</h1>
-                <img src="/style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
+                <img src="../../style/img/logo.png" alt="Logo" width="60" height="80" class="d-inline-block align-text-top">
             </div>
         </footer>
 
