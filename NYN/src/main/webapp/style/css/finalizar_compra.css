@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13 ago. 2024, 16:41:35
+    Author     : CESAR
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+/* CABEZADO */
+.navbar {
+    background-color: #7573F5;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 10px
+}
+
+/* CUERPOOOOOOOOOOOOOOOOOOOOOO*/
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenido h2 {
+    font-size: 4rem;
+    font-family: fantasy;
+}
+
+.contenido p {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.btn-general {
+    display: grid;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+
+
+
+/* PIEEEEEEEEEEEEEEEEEEEEEEE */
+
+footer p {
+    text-align: center;
+    display: flex; /* Activa Flexbox para el footer */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 80px; /* Define la altura del footer */
+    background-color: #343a40; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
