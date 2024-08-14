@@ -10,54 +10,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Soporte del Cliente</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <style>
-            body {
-                background-color: #f8f9fa;
-            }
-            .header-content .logo img {
-                height: 50px;
-            }
-            .user-icon img {
-                height: 40px;
-            }
-            .request-section, .faq-section {
-                background-size: cover;
-                background-position: center;
-                border-radius: 8px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                margin-bottom: 30px;
-            }
-            .request-section {
-                background-image: url('img/sop.jpg');
-            }
-            .faq-section {
-                background-image: url('img/sup.jpg');
-            }
-            .content-overlay {
-                background-color: rgba(255, 255, 255, 0.8);
-                padding: 20px;
-                border-radius: 8px;
-            }
-            .footer-links a {
-                display: block;
-                color: #ffffff;
-                text-decoration: none;
-                margin-bottom: 5px;
-            }
-            .footer-links a:hover {
-                text-decoration: underline;
-            }
-            .social-media img {
-                height: 30px;
-            }
-        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">        
+        <link href="../style/css/soporte/soporte.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header class="bg-primary text-white p-3">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="header-content d-flex align-items-center">
-                    <div class="logo mr-3"><img src="img/WOLF.jpg" alt="Logo" class="img-fluid"></div>
+                    <div class="logo mr-3"><img src="../../style/img/soporte/WOLF.jpg)" alt="Logo" class="img-fluid"></div>
                     <div class="site-name h4 mb-0">NOT YOUNG NOW</div>
                 </div>
                 <nav>
