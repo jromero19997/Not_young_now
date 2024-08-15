@@ -1,0 +1,145 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 ago 2024, 23:08:33
+    Author     : COREI5
+*/
+
+body {
+    padding-top: 56px;
+    background: #f3f4f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajusta según tus necesidades */
+    overflow: hidden;
+}
+
+.header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+}
+
+.caption-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(28, 26, 26, 0.7); /* Negro con transparencia */
+    color: white;
+    padding: 20px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    max-width: 80%; /* Ajusta el ancho según sea necesario */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.transport-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    border: 2px solid #ffecf0;
+    background: linear-gradient(135deg, #d4a5ff 0%, #ffecf0 100%);
+    color: #333;
+    border-radius: 15px;
+    margin: 0 10px; /* Espacio entre tarjetas */
+}
+
+.transport-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    animation: fadeIn 1s;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-description {
+    background: rgba(0, 0, 0, 0.7); /* Fondo negro más claro con transparencia */
+    color: white;
+    padding: 15px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    margin-bottom: 10px;
+}
+
+.card-cost {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #9c27b0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #7b1fa2;
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Línea debajo del título "Nuestros Servicios de Transporte" */
+.underline {
+    border: none;
+    height: 3px;
+    width: calc(100% - 40px); /* Ajuste de la longitud de los tres marcos */
+    background-color: #ffecf0; /* Color de los marcos de los transportes */
+    margin: 0 auto 20px; /* Centrado y con espacio abajo */
+}
