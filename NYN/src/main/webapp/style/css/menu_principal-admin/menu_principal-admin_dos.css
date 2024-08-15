@@ -7,19 +7,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : CESAR
 */
 
-/* Estilos para el header y footer */
+/* CABEZADO Y PIEEEEEEEEEEEEEEE */
+
 header, footer {
     background-color: #7573F5;
 }
 
-/* Alineación del logo en el navbar */
+/* Alineación del logo en el CABEZADOOOOOOOOO */
+
 .navbar .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* CABEZADO Y PIEEEEEEEEEEEEEEE */
 .nav-item {
     background-color: #fff;
     border: 3px solid black;

@@ -13,16 +13,14 @@ body {
     background-size: cover;
 }
 
+/* CUERPOOOOOOOOOOOOOOOOOOOOOOOO */
+
 .container {
     margin-top: 8rem;
     width: 700px;
 }
 
-.card {
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
-    border-radius: 10px;
-}
+/* LOGOOOOOOOOOO */
 
 .logo {
     position: absolute;
@@ -44,18 +42,30 @@ body {
     height: 80px;
 }
 
+/* CONTENIDOOOOOO */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 10px;
+}
+
 .card-body {
     z-index: 1;
     padding: 20px;
+}
+
+/* FORMULARIOOOOOOOOOO */
+
+.form-group input {
+    color: black;
 }
 
 label {
     font-size: 20px;
 }
 
-.form-group input {
-    color: black;
-}
+/* BOTON DE IR A CREAR CUENTA */
 
 .form-footer {
     display: flex;

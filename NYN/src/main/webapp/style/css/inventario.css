@@ -1,0 +1,28 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 ago 2024, 21:41:51
+    Author     : COREI5
+*/
+
+/* Estilo de la tabla */
+.table th {
+    background-color: #191c1d; /* Color de fondo para los encabezados de tabla */
+    color: #fff; /* Color del texto para los encabezados de tabla */
+}
+
+.table .btn {
+    margin: 2px;
+}
+
+.modal-header {
+    background-color: #033056; /* Color de fondo para el encabezado del modal */
+    color: #fff; /* Color del texto para el encabezado del modal */
+}
+
+/* Estilo para la alerta inicial */
+.swal2-container {
+    z-index: 1050;
+}

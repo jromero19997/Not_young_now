@@ -45,7 +45,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Crear cuenta</button>
                         <div class="form-footer">
-                            <a href="/view/login-admin.jsp">Iniciar Sesión</a>
+                            <a href="login-admin.jsp">Iniciar Sesión</a>
                         </div>
                     </form>
                 </div>

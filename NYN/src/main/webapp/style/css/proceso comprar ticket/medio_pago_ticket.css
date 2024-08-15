@@ -14,6 +14,7 @@ html, body {
 }
 
 /* CABEZADO */
+
 .navbar {
     background-color: #7573F5;
 }
@@ -29,8 +30,6 @@ html, body {
     padding-left: 10px
 }
 
-
-
 /* CUERPOOOOOOOOOOOOOOOOOOOOOO*/
 
 /* IZQUIERDAAAAAAAAAA */
@@ -45,17 +44,23 @@ html, body {
     text-align: center;
 }
 
+/* MEDIOOOO DE PAGOOOOOO */
+
 .medio-pago{
     padding: 20px;
 }
 
+.tarjeta, .billeteras-electronicas, .pago-efectivo{
+    border: 3px solid black;
+}
+
 /* Ajustar el tamaño y centrar el ícono verticalmente */
+
 .titulo {
     display: flex;
     align-items: center; /* Centra verticalmente el contenido */
     margin: 20px;
     cursor: pointer; /* Cambia el cursor para indicar que es clicable */
-
 }
 
 .titulo img {
@@ -83,9 +88,13 @@ html, body {
    font-family: sans-serif;
 }
 
+/* PASOS PARA EL CODIGO QR */
+
 .contenido ol{
     margin: 25px;
 }
+
+/* BOTON PARA PAGAR */
 
 .pagar{
     color: #fff;
@@ -96,6 +105,8 @@ html, body {
     font-family: monospace;
 }
 
+/* BOTON PARA PRODUCTO NO DISPONIBLE */
+
 .no-disponible{
     color: #fff;
     background-color: red;
@@ -105,12 +116,16 @@ html, body {
     font-family: monospace;
 }
 
+/* BOTON PAGAR Y NO DISPONIBLE */
+
 .pagar, .no-disponible {
     display: block;
     margin: 20px auto; /* Centra horizontalmente el botón */
     width: fit-content; /* Ajusta el ancho del botón al contenido */
     text-align: center;
 }
+
+/* IMG DE BILLETERA DIGITALES */
 
 .img-billetera{
     display: flex;
@@ -119,9 +134,7 @@ html, body {
     margin: 25px;
 }
 
-.tarjeta, .billeteras-electronicas, .pago-efectivo{
-    border: 3px solid black;
-}
+/* ICONO DE LA FLECHAAAAAAAAAAAA */
 
 .collapsing + .bi,
 .collapse.show + .bi {

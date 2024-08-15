@@ -47,13 +47,13 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="style/img/imagen2.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
+                    <img src="style/img/carusel/aventuraa.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
                 </div> 
                 <div class="carousel-item">
-                    <img src="style/img/juane.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
+                    <img src="style/img/carusel/imagen2.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
                 </div>
                 <div class="carousel-item">
-                    <img src="style/img/aventuraa.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
+                    <img src="style/img/carusel/juane.jpg" class="d-block w-100" data-bs-interval="3000" alt=""/>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -70,7 +70,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="style/img/aventura.png" class="card-img-top" alt=""/>
+                        <img src="style/img/card-menu-principal/aventura.png" class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">ESTADIO NACIONAL LIMA/MUSICA</h5>
                             <H5 class="card-text">AVENTURA EN LIMA</H5>
@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="style/img/morat.png" class="card-img-top" alt=""/>
+                        <img src="style/img/card-menu-principal/morat.png" class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">ESTADIO NACIONAL LIMA/MUSICA</h5>
                             <H5 class="card-text">MORAT LOS ESTADIOS.ANTES DE  </H5>
