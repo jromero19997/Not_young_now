@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 ago 2024, 23:18:03
+    Author     : lohan
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background-color: #6a5acd; /* Color de fondo del encabezado */
+    color: #fff; /* Texto negro */
+}
+.logo img {
+     max-height: 50px;
+}
+.user-icon img {
+    height: 40px;
+}            
+nav .btn {
+    background-color: #fff; /* Fondo blanco para los botones */
+    border: none; /* Sin borde */
+    margin: 0 5px; /* Espaciado entre botones */
+}
+.btn-custom-nav {
+    background-color: #000; /* Color de fondo para botones */
+    color: #333; /* Texto blanco */
+}           
+ main {
+    display: flex;
+    justify-content: space-between;
+     margin: 20px;
+}
+.valoracion, .comentarios {
+    background-color: #5d5dbb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+}
+h2 {
+    color: white;
+}
+.valoracion-opciones ul {
+    list-style: none;
+    padding: 0;
+}
+.valoracion-opciones li {
+    color: white;
+    margin: 5px 0;
+}
+.stars {
+    color: gold;
+}
+.buscar-cliente {
+    margin-top: 20px;
+}
+.buscar-cliente .form-control {
+    border-radius: 5px;
+}
+.buscar-cliente .btn-success {
+    border-radius: 5px;
+}
+.boton-anterior {
+    margin-top: 30px;
+    text-align: center;
+}
+.boton-anterior .btn-dark {
+    border-radius: 5px;
+}
+.comentario {
+    background-color: #6b6bd2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+}
+.comentario .valoracion {
+    font-size: 18px;
+}
+.comentario .comentario-texto {
+    margin-top: 10px;
+}
+.comentario .cliente {
+    text-align: right;
+    margin-top: 10px;
+}
+footer {
+    background-color: #333;
+}
