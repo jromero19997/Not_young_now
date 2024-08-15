@@ -17,14 +17,14 @@
         <header class="bg-primary text-white p-3">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="header-content d-flex align-items-center">
-                    <div class="logo mr-3"><img src="../../style/img/soporte/WOLF.jpg)" alt="Logo" class="img-fluid"></div>
+                    <div class="logo mr-3"><img src="../style/img/soporte/WOLF.jpg" alt="Logo" class="img-fluid"></div>
                     <div class="site-name h4 mb-0">NOT YOUNG NOW</div>
                 </div>
                 <nav>
                     <button class="btn btn-light mx-2">Evento</button>
                     <button class="btn btn-light mx-2">Servicio adicional</button>
                     <button class="btn btn-light mx-2">Cerrar sesión</button>
-                    <button class="btn btn-light p-0 user-icon"><img src="img/icon.jpeg" alt="User Icon" class="img-fluid"></button>
+                    <button class="btn btn-light p-0 user-icon"><img src="../style/img/soporte/icon.jpeg" alt="User Icon" class="img-fluid"></button>
                 </nav>
             </div>
         </header>

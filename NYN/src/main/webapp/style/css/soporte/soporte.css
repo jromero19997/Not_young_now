@@ -25,10 +25,10 @@ body {
     margin-bottom: 30px;
 }
 .request-section {
-    background-image: url(../../style/img/sop.jpg);
+    background-image: url(../../img/soporte/sop.jpg);
 }
 .faq-section {
-    background-image: url('img/sup.jpg');
+    background-image: url(../../img/soporte/sap.jpg);
 }
 .content-overlay {
     background-color: rgba(255, 255, 255, 0.8);
