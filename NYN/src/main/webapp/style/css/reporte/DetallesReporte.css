@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 ago 2024, 23:37:38
+    Author     : lohan
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background-color: #6a5acd;
+    color: #fff;
+}
+.logo img {
+    max-height: 50px;
+}
+.user-icon img {
+    height: 40px;
+}
+nav .btn {
+    background-color: #fff;
+    border: none;
+    margin: 0 5px;
+}
+.btn-prev {
+    background-color: #6a5acd; /* Color lilac */
+    color: #fff; /* Color del texto en blanco para un buen contraste */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-custom-back {
+    background-color: #e6e6fa;
+    color: #fff;
+    border: none;
+}
+.btn-custom-export {
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+.bg-custom-section {
+    background-color: #e6e6fa; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+}
+.summary {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px; 
+    text-align: center;
+}
+.text-center-custom {
+    text-align: center;
+}
+.heading-dark {
+    color: #4a3c6c; 
+    font-weight: bold; 
+}
+.result-red {
+    color: red; 
+}
+.result-red-light {
+    color: #f08080; 
+}
+.ticket-info {
+    background-color: #6a5acd; 
+    padding: 20px;
+    border-radius: 8px;
+}
+.ticket-info h2 {
+    color: #4a3c6c; 
+    font-weight: bold; 
+}
