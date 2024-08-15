@@ -17,7 +17,7 @@
         <header class="bg-primary text-white p-3">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="header-content d-flex align-items-center">
-                    <div class="logo mr-3"><img src="../style/img/soporte/WOLF.jpg" alt="Logo" class="img-fluid"></div>
+                    <div class="logo mr-3"><img src="../style/img/soporte/logo.png" alt="Logo" class="img-fluid"></div>
                     <div class="site-name h4 mb-0">NOT YOUNG NOW</div>
                 </div>
                 <nav>
